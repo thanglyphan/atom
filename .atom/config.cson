@@ -1,0 +1,39 @@
+"*":
+  "atom-package-deps":
+    ignored: [
+      "linter-ui-default"
+    ]
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+  editor: {}
+  "exception-reporting":
+    userId: "d599f98b-faf9-4956-a2f1-f9aec0794c02"
+  "linter-ui-default":
+    panelHeight: 69
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      semi: false
+      singleQuote: true
+    useEslint: true
+  welcome:
+    showOnStartup: false
